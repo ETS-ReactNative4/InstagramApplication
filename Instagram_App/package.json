@@ -1,0 +1,46 @@
+{
+  "name": "Instagram_App",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^5.8.1",
+    "moment": "^2.24.0",
+    "native-base": "^2.12.0",
+    "npm": "^6.7.0",
+    "react": "16.6.3",
+    "react-native": "^0.57.8",
+    "react-native-elements": "^1.1.0",
+    "react-native-fast-image": "^5.2.0",
+    "react-native-fbsdk": "^0.8.0",
+    "react-native-firebase": "^5.2.2",
+    "react-native-gifted-chat": "^0.7.2",
+    "react-native-google-signin": "^1.2.1",
+    "react-native-image-crop-picker": "^0.23.0",
+    "react-native-image-picker": "^0.28.0",
+    "react-native-image-resizer": "^1.0.1",
+    "react-native-material-bottom-navigation": "^1.0.2",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-search-bar": "^3.4.2",
+    "react-native-vector-icons": "^6.3.0",
+    "react-navigation": "^3.2.1",
+    "react-navigation-tabs": "^1.0.2"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "^0.45.6",
+    "react-test-renderer": "16.6.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "rnpm": {
+    "src": [
+      "./src/fonts"
+    ]
+  }
+}
